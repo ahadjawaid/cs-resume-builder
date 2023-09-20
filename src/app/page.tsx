@@ -16,12 +16,12 @@ import CallToAction from "@/composities/CallToAction";
 const backgroundColor = "bg-slate-100 py-12";
 
 const sections = [
-  <Companies />,
-  // <Product />,
-  // <Pricing />, 
-  <Testimonials />, 
-  <CallToAction />, 
-  <Questions questions={faq} />
+  <Companies key={1} />,
+  // <Product key={2} />,
+  // <Pricing key={3} />, 
+  <Testimonials key={4} />, 
+  <CallToAction key={5} />, 
+  <Questions key={6} questions={faq} />
 ]
 
 export default function Home() {
