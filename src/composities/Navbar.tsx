@@ -11,9 +11,9 @@ function Navbar() {
                 <Logo />
                 <div className="hidden md:flex gap-x-6">
                     {
-                        navigationLinks.map((item, index) => (
-                            <TextLink key={index} href={item.href}>
-                                {item.name}
+                        navigationLinks.map(({ href, name }, index) => (
+                            <TextLink key={index} href={href}>
+                                {name}
                             </TextLink>
                         ))
                     }
