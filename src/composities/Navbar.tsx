@@ -20,7 +20,7 @@ function Navbar() {
                 </div>
                 <div className="flex items-center gap-x-4">
                     <div className="hidden sm:flex">
-                        <LinkButton href={navigation.getStarted}>
+                        <LinkButton target="_blank" href={navigation.getStarted}>
                             Get started
                         </LinkButton>
                     </div>

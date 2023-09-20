@@ -12,7 +12,7 @@ export default function CallToAction() {
                     It’s time to take control of your career. Fix your resume so you can get the job you want!
                 </p>
             </div>
-            <LinkButton href={navigation.getStarted} className="mt-8 max-w-xs mx-auto">
+            <LinkButton href={navigation.getStarted} target="_blank" className="mt-8 max-w-xs mx-auto">
                 Get Started
             </LinkButton>
         </div>
