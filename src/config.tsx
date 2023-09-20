@@ -11,18 +11,18 @@ export const navigation = {
 }
 
 export const navigationLinks = [
-    {
-        name: 'Home',
-        href: '/',
-    },
+    // {
+    //     name: 'Home',
+    //     href: '/',
+    // },
     // {
     //     name: 'Product',
     //     href: navigation.product,
     // },
-    {
-        name: 'Pricing',
-        href: navigation.pricing,
-    },
+    // {
+    //     name: 'Pricing',
+    //     href: navigation.pricing,
+    // },
 ]
 
 export const socials = [
