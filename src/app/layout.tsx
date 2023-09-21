@@ -50,8 +50,8 @@ export default function RootLayout({
     <html lang="en" className='scroll-smooth'>
       <head>
         <meta name="google-site-verification" content="zTCqqipC7DmeGUpRLrZ4XULKcDUkHZRdEUSAm7XNUeg" />
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZPHMT90RC"></Script>
-        <Script>
+        <Script id='google-tag' async src="https://www.googletagmanager.com/gtag/js?id=G-ZZPHMT90RC"></Script>
+        <Script id='google-tag-track'>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
