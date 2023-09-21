@@ -1,12 +1,12 @@
 import BaseOutlet from "@/outlets/BaseOutlet"
-import Pricing from "@/composities/Pricing"
-import { spacingStyle, backgroundColor, faq } from "@/config"
+import Product from "@/composities/Product"
+import { spacingStyle, backgroundColor } from "@/config"
+import CallToAction from "@/composities/CallToAction"
 import Sections from "@/outlets/Sections"
-import Questions from "@/composities/Questions"
 
 const sections = [
-  <Pricing key={0} />,
-  <Questions key={1} questions={faq} />
+  <Product key={0} />,
+  <CallToAction key={1} />
 ]
 
 export default function Page() {

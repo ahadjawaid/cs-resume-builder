@@ -16,7 +16,7 @@ export default function Hero() {
                 <p className="text-slate-500 text-md sm:text-lg mt-4">
                     This is a service for students who are unsure about how to write their resume.
                 </p>
-                    <LinkButton href={navigation.getStarted} target="_blank" className="mt-6 max-w-xs">
+                    <LinkButton href={navigation.getStarted} className="mt-6 max-w-xs">
                         Get Started
                     </LinkButton>
             </div>
