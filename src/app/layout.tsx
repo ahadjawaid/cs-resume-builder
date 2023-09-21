@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   abstract: "We help you write your CS resumes!",
   category: "AI",
   classification: "AI",
-  keywords: "AI, Resume, CS Resume, Tech resume"
+  keywords: "Resume, CS Resume, Tech resume, Resume Review, Review"
 }
 
 export default function RootLayout({
