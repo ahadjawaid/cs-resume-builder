@@ -1,6 +1,7 @@
 import LinkButton from "@/components/LinkButton";
 import Tag from "@/components/Tag";
 import { CheckIcon } from "@heroicons/react/20/solid";
+import { navigation } from "@/config";
 
 interface PricingCardProps {
     title: string;
@@ -23,7 +24,7 @@ export default function PricingCard({
     monthly = false
 }: PricingCardProps) {
     return (
-        <div className="flex flex-col justify-between px-10 sm:px-14 py-10 rounded-md outline outline-1 outline-slate-200 shadow-lg w-full sm:w-auto bg-white">
+        <div className="flex flex-col sm:max-w-sm justify-between px-10 sm:px-14 py-10 rounded-md outline outline-1 outline-slate-200 shadow-lg w-full sm:w-auto bg-white">
             <div className="flex flex-col gap-y-5">
                 <div className="flex items-center justify-between">
                     <h2 className={`${highlight ? "text-blue-600 text-xl" : "text-slate-800 text-xl"} font-medium`}>
@@ -79,8 +80,8 @@ export default function PricingCard({
                     }
                 </div>
             </div>
-            <div className="mt-5">
-                <LinkButton href="/" filled={highlight}>
+            <div className="mt-12">
+                <LinkButton href={navigation.purchaseLink} filled={highlight}>
                     Purchase
                 </LinkButton>
             </div>

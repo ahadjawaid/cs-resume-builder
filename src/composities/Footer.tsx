@@ -1,7 +1,13 @@
 import Link from "next/link";
-import { socials, owner, navigationLinks } from "@/config";
+import { socials, companyAgreementLinks, owner, navigationLinks } from "@/config";
 import TextLink from "@/components/TextLink";
 import Logo from "@/components/Logo";
+
+
+const allLinks = [
+    ...navigationLinks,
+    ...companyAgreementLinks
+];
 
 function Footer() {
     return (
@@ -11,7 +17,7 @@ function Footer() {
             </div>
             <div className="flex justify-center gap-x-4">
                 {
-                    navigationLinks.map(({ name, href }, index) => (
+                    allLinks.map(({ name, href }, index) => (
                         <TextLink key={index} href={href}>
                             {name}
                         </TextLink>
