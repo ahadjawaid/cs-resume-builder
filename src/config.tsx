@@ -1,28 +1,38 @@
 export const owner = "Ahad Jawaid";
 export const sizeStyle = "max-w-6xl px-6 mx-auto";
 export const spacingStyle = "mt-16 sm:mt-20"
+export const backgroundColor = "bg-slate-100 py-12";
 
 export const navigation = {
     home: "/",
     product: "/product",
     pricing: "/pricing",
+    terms: "/terms",
     blog: "/blog",
-    getStarted: "https://forms.gle/ymCt942X5Bx8uTqCA",
+    getStarted: "#pricing",
+    purchaseLink: "https://buy.stripe.com/7sI5oigPQ4NN9nGdQQ",
 }
 
 export const navigationLinks = [
-    // {
-    //     name: 'Home',
-    //     href: '/',
-    // },
+    {
+        name: 'Home',
+        href: '/',
+    },
     // {
     //     name: 'Product',
     //     href: navigation.product,
     // },
+    {
+        name: 'Pricing',
+        href: navigation.pricing,
+    },
+]
+
+export const companyAgreementLinks = [
     // {
-    //     name: 'Pricing',
-    //     href: navigation.pricing,
-    // },
+    //     name: "Terms of Service",
+    //     href: navigation.terms,
+    // }
 ]
 
 export const socials = [
@@ -45,69 +55,6 @@ export const socials = [
         ),
     },
 ];
-
-export const pricing = [
-    {
-        title: "Resume Review",
-        price: 16,
-        percentageOff: 60,
-        features: [
-            "1 Resume",
-            "1 Cover Letter",
-            "1 LinkedIn Review",
-            "1 Mock Interview",
-            "1 Hour of 1-on-1 Coaching",
-            "1 Hour of 1-on-1 Coaching",
-            "1 Hour of 1-on-1 Coaching",
-        ],
-    },
-    {
-        title: "Resume Rewrite",
-        price: 32,
-        percentageOff: 70,
-        features: [
-            "1 Resume",
-            "1 Cover Letter",
-            "1 LinkedIn Review",
-            "1 Mock Interview",
-            "1 Hour of 1-on-1 Coaching",
-            "1 Hour of 1-on-1 Coaching",
-            "1 Hour of 1-on-1 Coaching",
-        ],
-        highlight: true,
-    },
-    {
-        title: "Full Resume",
-        price: 48,
-        percentageOff: 60,
-        features: [
-            "1 Resume",
-        ],
-    },
-]
-
-export const faq = [
-    {
-        question: "What service do we provide?",
-        answer: "We provide resume reviews, resume rewrites, and full resume writing services.",
-    },
-    {
-        question: "How long does it take?",
-        answer: "We aim to get back to our customers in 1-3 business days since we are doing this manually.",
-    },
-    {
-        question: "How does the writing service work?",
-        answer: "We will send you a form to fill out and we will write your resume based on your responses. We also may require additional information to write your resume.",
-    },
-    {
-        question: "When will the CS Resume Builder launch?",
-        answer: "We are in developement and we will launch soon but in the mean time you can sign up to get notified when we launch.",
-    },
-    {
-        question: "What is the refund policy?",
-        answer: "We do jot offer a refund policy since each resume is written and reviewed by a real person.",
-    },
-]
 
 export const companies = [
     {
@@ -132,10 +79,73 @@ export const companies = [
     // },
 ]
 
+export const pricing = [
+    {
+        title: "Resume Review",
+        price: 19,
+        percentageOff: 60,
+        features: [
+            "1 Full Resume Review",
+            "Review are customized according to your ideal role",
+            "Receive detailed and actionable suggestions",
+            "Line by line feedback",
+            "Formating feedback",
+            "Spelling and grammar feedback",
+        ],
+        highlight: true,
+    },
+    // {
+    //     title: "Resume Rewrite",
+    //     price: 32,
+    //     percentageOff: 70,
+    //     features: [
+    //         "1 Resume",
+    //         "1 Cover Letter",
+    //         "1 LinkedIn Review",
+    //         "1 Mock Interview",
+    //         "1 Hour of 1-on-1 Coaching",
+    //         "1 Hour of 1-on-1 Coaching",
+    //         "1 Hour of 1-on-1 Coaching",
+    //     ],
+    //     highlight: true,
+    // },
+    // {
+    //     title: "Full Resume",
+    //     price: 48,
+    //     percentageOff: 60,
+    //     features: [
+    //         "1 Resume",
+    //     ],
+    // },
+]
+
+export const faq = [
+    {
+        question: "What service do we provide?",
+        answer: "We provide resume reviews, resume rewrites, and full resume writing services.",
+    },
+    {
+        question: "How long does it take?",
+        answer: "We aim to get back to our customers in 1-3 business days since we are doing this manually.",
+    },
+    {
+        question: "How does the writing service work?",
+        answer: "We will send you a form to fill out and we will write your resume based on your responses. We also may require additional information to write your resume.",
+    },
+    {
+        question: "When will the CS Resume Builder launch?",
+        answer: "We are in developement and we will launch soon but in the mean time you can sign up to get notified when we launch.",
+    },
+    {
+        question: "What is the refund policy?",
+        answer: "We offer a 100% money back guarantee if you are not satisfied with our service if you request it within 7 days of purchasing our services.",
+    },
+]
+
 export const testimonials = [
     {
         name: "Matthew Pham",
         title: "Software Engineer Intern at Paycom",
-        text: "I have never made a resume before and didn’t really know what to do. After working with CS Resume Builder on my resume, I was able to make my bullet points and descriptions sound much more impactful and concise. Because of this, I was able to land a few internship offers.",
+        text: "I never made a resume before and didn’t really know what to do. After working with CS Resume Builder on my resume, I was able to make my bullet points and descriptions sound much more impactful and concise. Because of this, I was able to land a few internship offers.",
     },
 ]
