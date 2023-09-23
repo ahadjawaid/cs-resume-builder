@@ -126,7 +126,7 @@ export const pricing = [
 export const faq = [
     {
         question: "What service do we provide?",
-        answer: "We provide resume reviews, resume rewrites, and full resume writing services.",
+        answer: "We currently provide full resume reviews. We go into depth about how you can improve the formating of you resume and make your description more impactful and concise.",
     },
     {
         question: "How long does it take?",
@@ -134,11 +134,7 @@ export const faq = [
     },
     {
         question: "How does the writing service work?",
-        answer: "We will send you a form to fill out and we will write your resume based on your responses. We also may require additional information to write your resume.",
-    },
-    {
-        question: "When will the CS Resume Builder launch?",
-        answer: "We are in developement and we will launch soon but in the mean time you can sign up to get notified when we launch.",
+        answer: "We will send you a form to fill out and we will send you a document containing feedback on how to improve your resume.",
     },
     {
         question: "What is the refund policy?",

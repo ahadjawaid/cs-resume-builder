@@ -8,13 +8,13 @@ export default function Hero() {
         <div id="hero" className={`flex flex-col md:flex-row items-center gap-10 ${sizeStyle}`}>
             <div className="max-w-2xl flex flex-col">
                 <h1 className="text-blue-600 font-bold tracking-tight uppercase text-md sm:text-lg">
-                    Build your resume
+                    Optimize your resume
                 </h1>
                 <h2 className="text-slate-800 text-4xl sm:text-5xl font-bold tracking-tight mt-1">
-                    Get help writing your resume
+                    Get your dream tech job!
                 </h2>
                 <p className="text-slate-500 text-md sm:text-lg mt-4">
-                    This is a service for students who are unsure about how to write their resume.
+                    We help you build a resume that will get you noticed by recruiters and hiring managers.
                 </p>
                     <LinkButton href={navigation.getStarted} className="mt-6 max-w-xs">
                         Get Started

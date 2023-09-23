@@ -19,7 +19,7 @@ export default function Testimonials() {
                     See what our customers are saying about us.
                 </h3>
                 <p className="text-slate-500 text-md sm:text-lg mt-4">
-                    Our software is so simple that people can’t help but fall in love with it. Simplicity is easy when you just skip tons of mission-critical features.
+                    Our goal is to help all our clients get their dream job. And we strive to do that by providing the best service possible.
                 </p>
             </div>
             <div className="flex flex-wrap items-center justify-around gap-8">

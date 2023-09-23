@@ -9,7 +9,7 @@ export default function Pricing() {
                     Pricing
                 </h1>
                 <h2 className="text-slate-800 text-4xl sm:text-5xl font-bold tracking-tight mt-1">
-                    Finish writting your resume
+                    Affordable Pricing
                 </h2>
                 <p className="text-slate-500 text-md sm:text-lg mt-4">
                     Perfect your CS resume with just a small fraction of your potential hourly salary.
