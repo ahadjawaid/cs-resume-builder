@@ -26,6 +26,10 @@ export const navigationLinks = [
         name: 'Pricing',
         href: navigation.pricing,
     },
+    {
+        name: 'Blog',
+        href: navigation.blog,
+    },
 ]
 
 export const companyAgreementLinks = [
@@ -143,6 +147,18 @@ export const faq = [
 ]
 
 export const testimonials = [
+    {
+        name: "Mariyam Zaki",
+        title: "Student at University of Texas, Dallas",
+        text: "Getting my resume reviewed was a fantastic decision. Their professional guidance and attention to detail greatly improved my resume. I'm now more confident than ever in my job search. I highly recommend this for anyone looking to enhance their resume.",
+        path: "/testimonials/mariyam-zaki.jpg",
+    },
+    {
+        name: "Joshua Jimmy",
+        title: "Student at University of Texas, Dallas",
+        text: "Until now whenever I asked people to review my resume they wouldn't say much because a big problem was the format of my resume and the problems only became addressable once the format was changed and CS Resume Builder provided me with the solutions I needed.",
+        path: "/testimonials/joshua-jimmy.jpg",
+    },
     {
         name: "Matthew Pham",
         title: "Software Engineer Intern at Paycom",
