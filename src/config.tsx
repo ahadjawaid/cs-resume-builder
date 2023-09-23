@@ -26,10 +26,10 @@ export const navigationLinks = [
         name: 'Pricing',
         href: navigation.pricing,
     },
-    {
-        name: 'Blog',
-        href: navigation.blog,
-    },
+    // {
+    //     name: 'Blog',
+    //     href: navigation.blog,
+    // },
 ]
 
 export const companyAgreementLinks = [
