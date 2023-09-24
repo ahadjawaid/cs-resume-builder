@@ -6,9 +6,9 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Build your resume | CS Resume Builder',
+  title: 'Get your resume reviewed | CS Resume Builder',
   applicationName: 'CS Resume Builder',
-  description: 'We help you write your CS resumes!',
+  description: 'We help you pass the resume screen!',
   authors: [{ name: 'Ahad Jawaid', url: "www.ahadjawaid.com" }],
   referrer: "origin",
   robots: "index, follow",
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.csresumebuilder.com",
-    title: "Build your resume | CS Resume Builder",
-    description: "We help you write your CS resumes!",
+    title: "Get your resume reviewed | CS Resume Builder",
+    description: "We help you pass the resume screen!",
     images: [
       {
         url: "/logo.png",
