@@ -4,7 +4,7 @@ import { sizeStyle, navigation } from "@/config";
 export default function CallToAction() {
     return (
         <div className={`${sizeStyle}`}>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center text-center">
                 <h2 className="text-slate-800 text-4xl sm:text-5xl font-bold tracking-tight mt-1">
                     Get started today
                 </h2>

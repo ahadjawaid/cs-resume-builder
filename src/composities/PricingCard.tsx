@@ -10,6 +10,7 @@ interface PricingCardProps {
     features: string[];
     highlight?: boolean;
     monthly?: boolean;
+    href: string;
 }
 
 function calculateBeforePrice(percentageOff: number, price: number) {
@@ -18,13 +19,14 @@ function calculateBeforePrice(percentageOff: number, price: number) {
 export default function PricingCard({
     title,
     price,
+    href,
     percentageOff,
     features,
     highlight = false,
     monthly = false
 }: PricingCardProps) {
     return (
-        <div className="flex flex-col sm:max-w-sm justify-between px-10 sm:px-14 py-10 rounded-md outline outline-1 outline-slate-200 shadow-lg w-full sm:w-auto bg-white">
+        <div className="flex flex-col sm:max-w-[22rem] justify-between px-10 sm:px-12 py-10 rounded-md outline outline-1 outline-slate-200 shadow-lg w-full sm:w-auto bg-white">
             <div className="flex flex-col gap-y-5">
                 <div className="flex items-center justify-between">
                     <h2 className={`${highlight ? "text-blue-600 text-xl" : "text-slate-800 text-xl"} font-medium`}>
@@ -81,7 +83,7 @@ export default function PricingCard({
                 </div>
             </div>
             <div className="mt-12">
-                <LinkButton href={navigation.purchaseLink} filled={highlight}>
+                <LinkButton href={href} filled={highlight}>
                     Purchase
                 </LinkButton>
             </div>

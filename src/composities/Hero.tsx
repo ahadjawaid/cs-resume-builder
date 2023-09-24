@@ -11,7 +11,7 @@ export default function Hero() {
                     Optimize your resume
                 </h1>
                 <h2 className="text-slate-800 text-4xl sm:text-5xl font-bold tracking-tight mt-1">
-                    Get your dream tech job!
+                    Pass the resume screening!
                 </h2>
                 <p className="text-slate-500 text-md sm:text-lg mt-4">
                     We help you build a resume that will get you noticed by recruiters and hiring managers.

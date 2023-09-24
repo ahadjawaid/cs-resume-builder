@@ -10,7 +10,6 @@ export const navigation = {
     terms: "/terms",
     blog: "/blog",
     getStarted: "#pricing",
-    purchaseLink: "https://buy.stripe.com/7sI5oigPQ4NN9nGdQQ",
 }
 
 export const navigationLinks = [
@@ -85,12 +84,28 @@ export const companies = [
 
 export const pricing = [
     {
-        title: "Resume Review",
+        title: "Base",
         price: 19,
+        href: "https://buy.stripe.com/7sI5oigPQ4NN9nGdQQ",
         percentageOff: 60,
         features: [
             "1 Full Resume Review",
-            "Review are customized according to your ideal role",
+            "Customized reviews according to your ideal role",
+            "Receive detailed and actionable suggestions",
+            "Line by line feedback",
+            "Formating feedback",
+            "Spelling and grammar feedback",
+        ],
+        
+    },
+    {
+        title: "Deluxe",
+        price: 34,
+        href: "https://buy.stripe.com/bIY7wq578fsrbvObIK",
+        percentageOff: 60,
+        features: [
+            "2 Full Resume Reviews",
+            "Customized reviews according to your ideal role",
             "Receive detailed and actionable suggestions",
             "Line by line feedback",
             "Formating feedback",
@@ -98,29 +113,21 @@ export const pricing = [
         ],
         highlight: true,
     },
-    // {
-    //     title: "Resume Rewrite",
-    //     price: 32,
-    //     percentageOff: 70,
-    //     features: [
-    //         "1 Resume",
-    //         "1 Cover Letter",
-    //         "1 LinkedIn Review",
-    //         "1 Mock Interview",
-    //         "1 Hour of 1-on-1 Coaching",
-    //         "1 Hour of 1-on-1 Coaching",
-    //         "1 Hour of 1-on-1 Coaching",
-    //     ],
-    //     highlight: true,
-    // },
-    // {
-    //     title: "Full Resume",
-    //     price: 48,
-    //     percentageOff: 60,
-    //     features: [
-    //         "1 Resume",
-    //     ],
-    // },
+    {
+        title: "Premium",
+        price: 79,
+        href: "https://buy.stripe.com/3cseYS6bc0xx1Ve147",
+        percentageOff: 60,
+        features: [
+            "3 Full Resume Reviews",
+            "1-on-1 30 minute consultation",
+            "Customized reviews according to your ideal role",
+            "Receive detailed and actionable suggestions",
+            "Line by line feedback",
+            "Formating feedback",
+            "Spelling and grammar feedback",
+        ],
+    }
 ]
 
 export const faq = [
@@ -152,7 +159,7 @@ export const testimonials = [
     {
         name: "Joshua Jimmy",
         title: "Student at University of Texas, Dallas",
-        text: "Until now whenever I asked people to review my resume they wouldn't say much because a big problem was the format of my resume and the problems only became addressable once the format was changed and CS Resume Builder provided me with the solutions I needed.",
+        text: "Until now, whenever I asked people to review my resume, they wouldn't say much because a big problem was my resume format, and the problems only became addressable once the format was changed. CS Resume Builder provided me with the solutions I needed.",
         path: "/testimonials/joshua-jimmy.jpg",
     },
     {
