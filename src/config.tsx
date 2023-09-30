@@ -85,8 +85,8 @@ export const companies = [
 export const pricing = [
     {
         title: "Base",
-        price: 19,
-        href: "https://buy.stripe.com/7sI5oigPQ4NN9nGdQQ",
+        price: 14,
+        href: "https://buy.stripe.com/6oE7wqdDEfsr8jC3cg",
         percentageOff: 60,
         features: [
             "1 Full Resume Review",
@@ -100,8 +100,8 @@ export const pricing = [
     },
     {
         title: "Deluxe",
-        price: 34,
-        href: "https://buy.stripe.com/bIY7wq578fsrbvObIK",
+        price: 26,
+        href: "https://buy.stripe.com/8wMaIC2Z07ZZ7fy3ch",
         percentageOff: 60,
         features: [
             "2 Full Resume Reviews",
@@ -115,8 +115,8 @@ export const pricing = [
     },
     {
         title: "Premium",
-        price: 79,
-        href: "https://buy.stripe.com/3cseYS6bc0xx1Ve147",
+        price: 49,
+        href: "https://buy.stripe.com/cN26smars3JJgQ86ou",
         percentageOff: 60,
         features: [
             "3 Full Resume Reviews",
