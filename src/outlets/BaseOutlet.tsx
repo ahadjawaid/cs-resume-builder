@@ -9,7 +9,7 @@ interface BaseOutletProps {
 export default function BaseOutlet({ children }: BaseOutletProps) {
     return (
         <div>
-            <nav className="p-6 sm:py-8 md:py-10">
+            <nav className={`py-6 sm:py-8 md:py-10`}>
                 <Navbar />
             </nav>
             {children}
