@@ -146,7 +146,7 @@ export const faq = [
     {
         question: "Where is the email?",
         answer: "Please check your spam folder. If you still can't find it, please email us at ahad@ahadjawaid.com",
-    }
+    },
     {
         question: "What is the refund policy?",
         answer: "We offer a 100% money back guarantee if you are not satisfied with our service if you request it within 7 days of purchasing our services.",
