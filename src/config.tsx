@@ -140,13 +140,14 @@ export const faq = [
         answer: "We aim to get back to our customers in 1-3 business days since we are doing this manually.",
     },
     {
-        question: "How does the writing service work?",
-        answer: "We will send you a form to fill out and we will send you a document containing feedback on how to improve your resume.",
+        question: "How does the service work?",
+        answer: "We will send a form to the email address you used for your purchase. Once you've filled it out, we will email you a document containing feedback on how to improve your resume",
     },
     {
         question: "What is the refund policy?",
         answer: "We offer a 100% money back guarantee if you are not satisfied with our service if you request it within 7 days of purchasing our services.",
     },
+    
 ]
 
 export const testimonials = [
