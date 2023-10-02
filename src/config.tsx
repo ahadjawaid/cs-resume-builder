@@ -141,8 +141,12 @@ export const faq = [
     },
     {
         question: "How does the service work?",
-        answer: "We will send a form to the email address you used for your purchase. Once you've filled it out, we will email you a document containing feedback on how to improve your resume",
+        answer: "We will send an email containing a form for your resume to the email address you used for your purchase. Once you've filled it out, we will email you a document containing feedback on how to improve your resume",
     },
+    {
+        question: "Where is the email?",
+        answer: "Please check your spam folder. If you still can't find it, please email us at ahad@ahadjawaid.com",
+    }
     {
         question: "What is the refund policy?",
         answer: "We offer a 100% money back guarantee if you are not satisfied with our service if you request it within 7 days of purchasing our services.",
