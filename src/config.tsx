@@ -144,6 +144,10 @@ export const faq = [
         answer: "We will send an email containing a form for your resume to the email address you used for your purchase. Once you've filled it out, we will email you a document containing feedback on how to improve your resume",
     },
     {
+        question: "What can we talk about in the one-on-one consultation?",
+        answer: "We can address specific issues you face in the job hunting process or answer any questions you may have about the job hunting process."
+    },
+    {
         question: "Where is the email?",
         answer: "Please check your spam folder. If you still can't find it, please email us at ahad@ahadjawaid.com",
     },
