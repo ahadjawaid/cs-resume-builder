@@ -119,7 +119,7 @@ export const pricing = [
         href: "https://buy.stripe.com/28o7wq0QSbcbczS3cj",
         percentageOff: 60,
         features: [
-            "3 Full Resume Reviews",
+            "2 Full Resume Reviews",
             "1-on-1 30 minute consultation",
             "Customized reviews according to your ideal role",
             "Receive detailed and actionable suggestions",
